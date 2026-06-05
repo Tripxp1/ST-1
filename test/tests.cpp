@@ -94,3 +94,7 @@ TEST(PrimeLib_Sum, belowTwo) {
 TEST(PrimeLib_Sum, belowTwenty) {
     assertPrimeSum(20, 77);
 }
+
+TEST(PrimeLib_Sum, largeBound) {
+    assertPrimeSum(2000000, 142913828922ULL);
+}
